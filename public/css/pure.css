@@ -1505,3 +1505,12 @@ striping:
 .pure-table-horizontal tbody > tr:last-child > td {
     border-bottom-width: 0;
 }
+
+
+img {
+  width: 20px;
+  height: 15px;
+  display: block;
+  align-items: center;
+  margin: auto;
+}

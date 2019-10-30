@@ -45,5 +45,21 @@ INSERT INTO Respuesta (id, id_tema, titulo, nombre, contenido)
   (3, 1, 'Nop', 'Iniaki', 'Y una kk'),
   (4, 2, 'Algo', 'nombre1', 'Cosa, cosa'),
   (5, 2, 'Algo', 'nombre2', 'Asd, Dsf, Cosa, cosa'),
-  (6, 2, 'Algo', 'nombre3', 'Cosa, cosa, JKU, LOP')
+  (6, 2, 'Yeah', 'nombre3', 'Cosa, cosa, JKU, LOP'),
+  (7, 1, 'KLK', 'pepa', 'Holaaaa'),
+  (8, 2, 'Algo', 'rufian', 'suuuuu'),
+  (9, 2, 'Algo', 'flora', 'Cosa1'),
+  (10, 1, 'Cosa', 'pepe', 'Cosa2'),
+  (11, 1, 'Maneras', 'almudena', 'Cosa3'),
+  (12, 2, 'Cierto', 'jose', 'eoooo'),
+  (13, 1, 'Recuperacion', 'profesor', 'suspenso'),
+  (14, 1, 'Ya era hora', 'julian', 'eoooo'),
+  (15, 2, 'Si claro', 'jorge', 'que tal'),
+  (16, 2, 'Hola', 'maria', 'preparacion de trabajos'),
+  (17, 2, 'Recursos', 'jose', 'eoooo'),
+  (18, 1, 'Joooo', 'sofia', 'ya es muy tarde'),
+  (19, 2, 'eso no se hace', 'german', 'a buenas horas'),
+  (20, 1, 'tenemos que hablar', 'monica', 'embarazo'),
+  (21, 1, 'que pasaaaa', 'monica', 'mami'),
+  (22, 1, 'como te va', 'julian', 'a ver si quedamos')
 ;

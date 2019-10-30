@@ -8,7 +8,8 @@
   }
 
   $sql = "SELECT * FROM Respuesta
-          where id_tema = :id";
+          where id_tema = :id
+          order by creado";
 
   $sentencia = $pdo->prepare($sql);
 
