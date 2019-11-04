@@ -6,4 +6,8 @@ $config = [
   'pass' => '1234',
 ];
 
+$ROOT = realpath(__DIR__."/..");
+
+define(NITEMS, 10);
+
 ?>

@@ -23,6 +23,8 @@
 
   //print_r($resultado);
 
+  $id = 1;
+
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -45,6 +47,7 @@
           <th>Nombre</th>
           <th>Fecha de creación</th>
           <th>ID Tema</th>
+          <th>Borar fila</th>
         </tr>
       </thead>
       <tbody>
@@ -53,6 +56,7 @@
           <?php foreach ($fila as $valor) { ?>
             <td><?=$valor?></td>
           <?php } ?>
+          <td><a href="borrar_fila.php?deleteRowRespuesta=<?=$resultado[$i++]['id']?>"><img src="../resources/icon_bin.png"></img></a></td>
           </tr>
         <?php } ?>
       </tbody>

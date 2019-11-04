@@ -1,9 +1,9 @@
 <?php
   require("pdo.php");
 
-  function deleteRow($id, $nameTable){
+  function deleteRow($nameTable, $where, $id){
 
-    $sql = "DELETE FROM ". $nameTable . " WHERE id = " . $id;
+    $sql = "DELETE FROM " . $nameTable . " " . $where . $id;
 
     $sentencia = $pdo->prepare($sql);
 
